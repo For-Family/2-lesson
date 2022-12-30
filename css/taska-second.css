@@ -1,0 +1,644 @@
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/Rubik-Regular.ttf");
+}
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/Rubik-Medium.ttf");
+}
+.body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    max-width: 1680px;
+    margin: auto;
+    padding: 0 60px;
+}
+
+.container-2{
+    max-width: 1910px;
+    margin: auto;
+    padding: 0 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* eng tepasi Namanganliklar va currency */
+
+.bobo-div{
+    display: flex;
+    margin: 35px 0px;
+    align-items: center;
+}
+
+.Namanganliklar-logo{
+    display: flex;
+    margin-right: 15px;
+}
+
+.currency-number{
+    display: flex;
+    padding-right: 20px;
+}
+
+.currency-mark{
+    display: flex;
+    font-size: 16px;
+    color: #285193;
+    padding-right: 8px;
+}
+
+/* right side of top */
+
+.right-side-of-top{
+    display: flex;
+    margin-left: 400px;
+}
+
+
+.poiskovik{
+    display: flex;
+    background-color: #f6f6f9;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.poiskovik-img{
+    display: flex;
+}
+
+.russia{
+    display: flex;
+    margin-left: 30px;
+    border-radius:10px ;
+    width:65px ;
+    background-color: #f6f6f9;
+    padding: 10px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.russia-img{
+    display: block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.ru-text{
+    display: flex;
+}
+
+.ah-ru{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.telegram{
+    display: flex;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    padding: 10px;
+    border-radius:10px ;
+    align-items: center;
+}
+
+.telegram-img{
+    display: block;
+    margin-right: 5px;
+}
+
+.Subscribe{
+    display: flex;
+    margin-left: 5px;
+    color: #FFFFFF;
+}
+
+/* Head section about Top Bar */
+
+.head{
+    margin-bottom: 20px;
+}
+
+.top-bar{
+    display: flex;
+}
+
+.head-box{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 120px;
+}
+
+.main-item{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    background-color: #f6f6f9;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.items{
+    display: flex;
+    padding: 0 20px;
+
+}
+
+.ah-items{
+    text-decoration: none;
+    color: black;
+}
+
+.ah-items:hover{
+    color: rgb(37, 35, 168);
+    }
+
+.div-advert{
+    margin-top:45px;
+    margin-left:75px;
+    margin-bottom:35px;
+}
+/* Articles */
+
+.Article{
+    display: flex;
+}
+
+.div-articles{
+    display: flex;
+    border-radius: 5px;
+    background-color: #f6f6f9;
+    height: 150px;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.articles-of-news{
+    display: flex;
+    margin-top: 47px;
+}
+
+.items-of-articles{
+    display: flex;
+}
+
+.items-of-articles-b{
+    display: flex;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.Covid-img{
+    display: block;
+    width: 43px;
+    height: 45px;
+    margin-right: 20px ;
+    margin-left: 40px;
+
+}
+
+.covid-text{
+    display: inline-block;
+    width: 260px;
+    margin-right: 90px;
+}
+
+.line{
+    display: flex;
+    width: 1px;
+    height: 74px;
+    background: #EB5569;
+    box-sizing: content-box;
+}
+
+.mini-line{
+    display: flex;
+    margin-left: 70px;
+    box-sizing: content-box;
+    width: 1px;
+    height: 54px;
+    background: #F4CCD1;
+
+}
+
+.mask-img{
+    display: flex;
+    height: 45px;
+    width: 43px;
+    margin-right: 20px;
+    margin-left:50px;
+}
+
+.smile-img{
+    display: flex;
+    height: 45px;
+    width: 43px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.zapret-img{
+    display: flex;
+    height: 45px;
+    width: 43px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.text-infection{
+    color:#DB0000;
+}
+
+.text-infection-B{
+    color:#05B135;
+}
+
+.text-infection-A{
+    color:#000000;
+}
+
+/* shost-news */
+
+.div-short-news{
+    display: flex;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 10px 0px;
+    width: 1350px;
+    flex-wrap: wrap;
+}
+
+.news-item{
+    list-style: none;
+}
+
+.mirzieev-said{
+    font-size: 17px;
+    color: #202020;
+    width: 380px;
+    margin-bottom: 10px;
+}
+
+.mirzieev-said-time{
+    color:#6B6D97;
+    font-size: 14px;
+}
+
+/* Nonfication */
+
+.nonfication-wanna{
+    display: flex;
+    margin: 55px 0px;
+    margin-left: 75px;
+    align-items: center;
+    height: 90px;
+    width: 1200px;
+    border-radius: 5px;
+    padding: 0px 35px;
+    background-color: rgba(239, 186, 84, 0.18);
+}
+
+.bell-icon{
+    display: flex;
+    width:29.25px;
+    height:34.6px;
+    margin-right: 20px;
+}
+
+.nonfication-wanna-text{
+    display: flex;
+    font-size: 20px;
+}
+
+.nonfication-wanna-turn{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-left: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+}
+
+.turnon{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Main section about articles Политика */
+.articles{
+    display: flex;
+    height: 300px;
+    align-items: flex-start;
+}
+
+.post-item{
+    margin-top:10px ;
+}
+
+.articles_new{
+    width:  55%;
+    /* border: 1px solid red; */
+}
+.articles_new_title{
+    margin: 20 0px;
+}
+
+.post_title{
+    font-size: 17px;
+    color: #202020;
+}
+.post_desck{
+    font-size: 15px;
+}
+
+.time{
+    font-size: 14px;
+    color: #7688A4;
+    display: flex;
+    align-items: center;
+}
+
+.articles_mostViewed{
+    width: 30%;
+    /* border: 1px solid blue; */
+    background-color: #f6f6f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+.post-item{
+    display: flex;
+}
+
+.pics-lox{
+    height: 175px;
+    width: 325px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.post_item_info{
+    color: #434343;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right:10px ;
+    justify-content: space-between;
+}
+
+.articles_mostViewed_title{
+    font-size: 17px;
+}
+
+.viewedPost_desc{
+    margin-bottom: 10px ;
+    font-size: 17px;
+    color: #202020;
+    font-size: 15px;
+    width: 347px;
+}
+
+.viewedPost{
+padding: 15px 0;
+}
+
+.viewedPost_time{
+    color: #7688A4;
+    font-size: 14px;
+}
+.divider{
+    border-color: #E4E4E4;
+    border-width:1px ;
+    opacity: 0.5;
+}
+
+.ino-pic{
+    display: flex;
+    width: 440px;
+    height: 600px;
+}
+
+.block-more-news{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 450px;
+}
+
+.more-news-here{
+    display: flex;
+    padding: 10px 25px;
+    width: 180px;
+    height: 42px;
+    color: #FFFFFF;
+    background-color:#295093;
+    border-radius: 5px;
+}
+
+.more-news-here-ah{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Reklama prilojeniya */
+
+.reklama-prilojeniya{
+    display: flex;
+    margin-top: 950px;
+}
+
+.reklama-prilojeniya-div{
+    display: flex;
+    padding: 50px;
+    padding-bottom: 0;
+    background-image: url(../pics/fon.png);
+    max-width: 1325px;
+}
+
+.iphone-img{
+    display: block;
+}
+
+.reklama-text-div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.reklama-title{
+    display: flex;
+    color: #295093;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.reklama-desck{
+    display: flex;
+    width: 515px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.reccomendation-apps{
+    display: flex;
+    margin-top: 55px;
+}
+
+.playmarket{
+    display: block;
+    width: 162.71px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.appstore{
+    display: block;
+    width: 164px;
+    height: 50px;
+}
+
+/* footer - qismi boshlanishi */
+
+.footer-qismi{
+    margin-top: 945px;
+}
+
+.perexod-na-third-page{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer-main-div{
+    background-color:#295093;
+    width: 100%;
+    height: 300px;
+    padding: 20px 180px;
+}
+
+.perexod-na-second-page{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.piar-of-tg-channel{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text-footer{
+    display: inline-block;
+    background-color: #133C82;
+    padding: 10px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.desc-in-footer{
+    margin-left: 300px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+
+.tg-footer-div{
+    display: flex;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.subscribe-to-channe-tg{
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.liniya-in-footer{
+    margin-top: 25px;
+    border-color: #133C82;
+    width: 1325px;
+}
+
+.about-cite{
+    display: flex;
+}
+
+.desck-about-cite{
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    width: 310px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 350px;
+}
+
+.variaty-of-support{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.variyati-block{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px 0;
+}
+
+.blocks-variat{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.blocks-achreffi{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.blocks-achreffi:hover{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 173, 49);
+}
